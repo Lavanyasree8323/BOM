@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+h1{
+    background-color: rgb(228, 49, 147);
+    color: black;
+}
+h2{
+    background-color: rgb(37, 172, 32);
+    color: white;
+}
+p{
+    color: blueviolet;
+}
+button{
+    background-color: rgb(18, 66, 156);
+    color: white;
+}
+

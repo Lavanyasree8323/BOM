@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONFIRM BOX</title>
+</head>
+<link rel="stylesheet" href="styleBOM.css">
+<body>
+    <h1>
+       JavaScript Confirm Box
+    </h1>
+    <p>
+        A confirm box is often used if you wanr the user to verify or accept something.
+    </p>
+    <br>
+    <p>
+        If the user clicks "OK", the box returns true. If the user clicks "Cancel", the box returns false.
+    </p>
+    <p id="cnf"></p>
+    <button onclick="cnfmbx()">continue</button>
+    <script>
+        function cnfmbx(){
+            var X;
+            if (confirm("Do You Really want to Continue?")) {
+                x="You Pressed OK!";
+            }
+            else{
+                x="You Pressed Cancel!!";
+            }
+            document.getElementById("cnf").innerHTML=x;
+        }
+    </script>
+
+</body>
+</html>
